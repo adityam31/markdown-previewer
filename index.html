@@ -17,7 +17,7 @@
     <body>
         <div class="container-fluid">
             
-            <div class="row">
+            <div class="row" id="headingRow">
 
                 <div class="col text-center text-white bg-success p-2">
                     <h1 class="heading">Markdown Previewer</h1>
@@ -25,9 +25,9 @@
 
             </div>
 
-            <div class="row" id="mainContent">
+            <div class="row" id="mainContentRow">
 
-                <div class="col-6 border-right border-dark">
+                <div id="editorDiv" class="col-6 border border-dark">
                     
                     <div class="toolbar shadow bg-light mt-2">
                         <span>Editor</span>
@@ -37,7 +37,7 @@
                     <textarea class="mb-2 shadow" rows="20" id="editor"></textarea>
                 </div>
 
-                <div class="col-6 border-left border-dark">
+                <div id="previewDiv" class="col-6 border border-dark">
                     <div class="toolbar shadow bg-light mt-2">
                         <span>Preview</span>
                         <img class="expand" src="images/expand.png" alt="Expand Section">
@@ -48,9 +48,9 @@
 
         </div>
 
-        <div>
+        <div id="footerDiv">
             <footer class="text-center footer-format">
-                <a href="https://github.com/adityam31/markdown-previewer">
+                <a href="https://github.com/adityam31/markdown-previewer" target="_blank">
                     <img src="images/GitHub-Mark-Light-32px.png" alt="Github logo">
                 </a>
                 <br>

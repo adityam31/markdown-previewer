@@ -30,8 +30,8 @@
     cursor: pointer;
 }
 
-#mainContent{
-    border: 5px solid black;
+#mainContentRow{
+    border: 3px solid black;
 }
 
 textarea {
@@ -58,7 +58,9 @@ textarea {
     background-color: #fff;
     background-clip: padding-box;
     border: 1px solid #ced4da;
+    padding: 20px;
     overflow-y: scroll;
+    overflow-x: scroll;
 }
 
 .footer-format{
