@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+@import url('https://fonts.googleapis.com/css?family=Krona+One');
+
+.heading{
+   font-family: Krona One;
+}
+
+.toolbar{
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+}
+
+.toolbar span{
+    font-size: 1.7rem;
+    font-family: Russo One;
+    margin-left: 10px;
+}
+
+.expand{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-right: 5px;
+    float: right;
+    transition: all .2s ease-in;
+}
+
+.expand:hover{
+    border: 1px solid #2CDA9D;
+    cursor: pointer;
+}
+
+#mainContent{
+    border: 5px solid black;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-family: "Courier New";
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #222;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    overflow-y: scroll;
+    resize: none;
+}
+
+#preview{
+    display: block;
+    width: 100%;
+    height: 700px;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    overflow-y: scroll;
+}
+
+.footer-format{
+    background-color: #222;
+    color: #f1f3ed;
+    padding: 10px;
+}
